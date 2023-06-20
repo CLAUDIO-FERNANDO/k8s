@@ -1,0 +1,23 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: meuprimeiropod
+spec:
+  containers:
+    - name: meuprimeiropod
+      image: kubedevio/nginx-color:blue
+# apiVersion:
+# representa o agrupamento da api usado para criar o
+# o objeto. para descobrir qual api versior vai ser usada. usamos
+# kubectl api-resources
+
+# kind:
+#é o tipo de objeto que iremos criar , no caso , o POD
+
+# metadata:
+#coloco todos metadados. atributos, nome, namespace etc.
+# spec:
+#- é a especificação do objeto, no caso o pod
+
+# apos ter criado / declarado os paramentros em nosso manifesto .yaml
+#  kubectl apply -f meupod.yaml

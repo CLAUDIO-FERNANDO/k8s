@@ -1,0 +1,40 @@
+**VIA ARQUIVO.yaml** 
+
+exemplo:
+
+```yaml
+apiVersion: v1
+kind: Pod
+metadata:
+  name: meuprimeiropod
+spec:
+  containers:
+    - name: meuprimeiropod
+      image: nginx
+
+
+# # apiVersion:
+#  # representa o agrupamento da api usado para criar o 
+#  # o objeto. para descobrir qual api versior vai ser usada. usamos
+#  # kubectl api-resources 
+
+# # kind:
+# 	#é o tipo de objeto que iremos criar , no caso , o POD
+
+# # metadata:
+# 	coloco todos metadados. atributos, nome, namespace etc.
+# # spec: 
+# 	- é a especificação do objeto, no caso o pod 
+# ```
+
+# apos ter criado / declarado os paramentros em nosso manifesto .yaml 
+
+# devemos executar-lo usando o comando:
+
+# kubectl apply -f meupod.yaml 
+
+# #para listar: kubectl get pods
+# #para mais destalhes:
+
+# 	# kubectl describe pod NOME_DO_POD > detalhe do pod
+# 	# kubectl describe pod > vai descrever  todos pods

@@ -1,0 +1,24 @@
+
+# PARA VISUALIZAR OS PODS 
+kubectl get pods
+# PARA VER TODOS DETALHES DE UM PODE
+kubectl describe pod NOME_DO_POD
+# PARA VER A DESCRIÃO DE TODOS 
+kubectl describe pod
+
+# LIBERAR PORTA FAZER UM PORT-FORWARD
+   # kubectl port-forward pod/"NOME_POD" PORTA:PORTA
+    #EXEMPLO:
+kubectl port-forward pod/"meuprimeiropod" 8080:80
+
+
+# PARA DELTAR UM POD
+
+kubectl delete pod NOME_DO_POD
+
+
+adfajjadf
+
+
+asdfa
+dneria

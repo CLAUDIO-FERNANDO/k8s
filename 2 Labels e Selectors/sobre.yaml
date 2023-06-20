@@ -1,0 +1,10 @@
+
+# ******************* Labels e Selectors *************************
+Labels e Selectors no Kubernetes fornecem uma maneira flexível de
+identificar, agrupar e selecionar recursos, permitindo a organização 
+e o gerenciamento eficiente de aplicativos em um ambiente Kubernetes.
+
+
+no Kubernetes, Labels (rótulos) são pares de chave-valor usados para 
+identificar e agrupar objetos, enquanto Selectors (seletores) são usados 
+para recuperar conjuntos específicos deobjetos com base nesses rótulos.

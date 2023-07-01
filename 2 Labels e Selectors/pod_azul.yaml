@@ -2,12 +2,10 @@ apiVersion: v1
 kind: Pod
 metadata:
   name: podazul
-  label: # aqui add o paramentro label.e as labels app e versao com seus valores
+  labels:
     app: nginx
-    versao: verde 
+    versao: azul
 spec:
   containers:
-    - name:podazul
+    - name: podazul
       image: kubedevio/nginx-color:blue
-
-
